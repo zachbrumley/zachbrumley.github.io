@@ -32,10 +32,29 @@ img{
 }
 
 .hero{
-    outline: 1px solid red;
     height:100vh;
     display:flex;
     flex-direction: column;
     justify-content:center;
+    border:0;
+    padding:0;
+}
 
+.headshot{
+    transition:transform 1s;
+    margin-left:auto;
+    margin-right: auto;
+    width: 485px;
+    height: 470px;
+}
+
+.headshot:hover{
+    transform:rotate(360deg)
+}
+
+section{
+    border-top:2px dashed #eee;
+    padding: 50px 0;
+    max-width:800px;
+    margin:0 auto;
 }
