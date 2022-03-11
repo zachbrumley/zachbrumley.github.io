@@ -5,31 +5,84 @@
         <link rel="stylesheet" href="StyleSheet.css" />
     </head>
     <body>
-        <section class="hero">
+        <ul class="nav">
+            <li><a href="#about">About me</a></li>
+            <li><a href="#projs">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+
+        <section class="hero" id="hero">
             <header>
                 <div class="headshot">
-                    <img src="headshot.png" alt="me" />
+                    <img src="imgs/headshot.png" alt="me" />
                 </div>
-                    <h1>Zach Brumley</h1>
+                <h1>Zach Brumley</h1>
                 <p>Aspiring Software Developer</p>
             </header>
         </section>
 
-        <section class="aboutme">
-            <h1>testing testing</h1>
-            <h2>123</h2>
-
-
-
+        <section class="aboutme" id="about">
+            <h1>About me</h1>
+            <div class="prose">
+                <p>
+                    My name is Zach Brumley. I am a 19 year old aspiring programmer living in South MS.
+                    I am currently enrolled in the MS Coding Academy for programming and cybersecurity.
+                    My primary language is C#, but I am currently learning HTML, CSS, and Python as well.
+                </p>
+                <p>I enjoy fitness, video games, and music.</p>
+            </div>           
         </section>
 
 
+        <section class="projects" id="projs">
+            <header>
+                <h1>Projects</h1>
+            </header>
+
+            <ul class="blocklist">
+                <li>
+                    <img src="imgs/selfcheckout.png" width="100" />
+                    <div>
+                        <h2><a href="https://github.com/zachbrumley/KioskV3">KioskV3.git</a></h2>                            
+                        <p>Self checkout backend software with logging package</p>
+                        <ul>
+                            <li>First major project</li>
+                            <li>Coded in C#</li>
+                        </ul>
+                    </div>      
+                    
+                </li>
+                
+                <li>
+                    <img src="imgs/contacts.png" width="125" />
+                    <div>
+                        <h2><a href="https://github.com/zachbrumley/ContactsApp">ContactsApp.git</a></h2>
+                            <p>Software that allows user to add/remove/edit contacts</p>
+                                <ul>
+                                    <li>Coded in C#</li>
+                                </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
 
 
-
-
-
-
+        <section id="contact">
+            <h1>
+                My links and info:
+            </h1>
+                <ul class="blocklist">
+                    <li>
+                        <img src="imgs/githublogo.png" alt="github logo" height="125" width="125" />
+                        <div>
+                            <h2><a href="https://github.com/zachbrumley">My Github</a></h2>
+                            <h2>Email: </h2> <p>zach.brumley@mscoding.org</p>
+                        </div>
+                    </li>              
+                </ul>
+                <p><a href="#hero">Back To Top</a></p>
+        </section>
     </body>
 
 </html>
