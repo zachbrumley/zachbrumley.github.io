@@ -127,6 +127,7 @@ section:target h1{
     display: flex;
     position:fixed;
     z-index:9999;
+    color:white;
 }
 
 .nav > li{
